@@ -17,6 +17,8 @@ title: OMPL Blog
     <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
     <small>{{ post.date | date_to_string }}</small>
   </h2>
+  {% assign author = site.data.authors[post.author] %}
+  <h4><a href="{{author.url}}">{{ author.name}}</a></h4>
 
   {{ post.content }}
   {% endfor %}

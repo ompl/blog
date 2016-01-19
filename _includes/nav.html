@@ -89,7 +89,7 @@
         <div id="searchli">
           <div id="MSearchBox" class="MSearchBoxInactive">
             <span class="left">
-              <img id="MSearchSelect" src="search/mag_sel.png"
+              <img id="MSearchSelect" src="{{ site.url }}/search/mag_sel.png"
               onmouseover="return searchBox.OnSearchSelectShow()"
               onmouseout="return searchBox.OnSearchSelectHide()"
               alt=""/>
@@ -98,7 +98,7 @@
               onblur="searchBox.OnSearchFieldFocus(false)"
               onkeyup="searchBox.OnSearchFieldChange(event)"/>
             </span><span class="right">
-              <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+              <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="{{ site.url }}/search/close.png" alt=""/></a>
             </span>
           </div>
         </div>

@@ -12,7 +12,6 @@ defaults:
         values:
             layout: post
 
-url: http://ompl.github.io
-#url: http://ompl.kavrakilab.org
-#url: file:///tmp/foo
+#url: http://ompl.github.io
+url: http://ompl.kavrakilab.org
 highlighter: rouge
