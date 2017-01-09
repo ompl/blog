@@ -12,7 +12,7 @@ title: OMPL Blog
 </div>
 
 <div class="col-md-9">
-  {% for post in site.posts limit:20 %}
+  {% for post in site.posts limit:40 %}
   <h2>
     <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
     <small>{{ post.date | date_to_string }}</small>
