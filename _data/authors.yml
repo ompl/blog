@@ -12,7 +12,7 @@ ltorres:
     email: luis@cs.unc.edu
 cvoss:
     name: Caleb Voss
-    url: #
+    url: http://calebvoss.com
     email: cav2@rice.edu
 sagarwal:
     name: Saurav Agarwal
@@ -30,3 +30,6 @@ sachin:
     name: Sachin Chitta
     url: http://sachinchitta.org
     email: sachin.chitta@gmail.com
+herbertetal:
+    name: Sylvia Herbert, David Fridovich-Keil, and Claire Tomlin
+    url: http://bair.berkeley.edu/blog/
