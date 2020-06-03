@@ -1,20 +1,28 @@
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<title>{{ page.title }}</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="Ioan A. Șucan, Mark Moll, Lydia E. Kavraki">
+<title>{{ page.title }}</title>
+<link href="{{ site.url }}/tabs.css" rel="stylesheet" type="text/css"/>
+<script src="{{ site.url }}/jquery.js"></script>
+<script src="{{ site.url }}/dynsections.js"></script>
+<link href="{{ site.url }}/search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="{{ site.url }}/search/searchdata.js"></script>
+<script type="text/javascript" src="{{ site.url }}/search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 
+*/
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js", "TeX/AMSmath.js", "TeX/AMSsymbols.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js
+"></script>
+  <link href="{{ site.url }}/doxygen.css" rel="stylesheet" type="text/css" />
 
-<link href="{{ site.url }}/css/tabs.css" rel="stylesheet">
-<link href="{{ site.url }}/css/doxygen.css" rel="stylesheet">
-<link href="{{ site.url }}/css/search.css" rel="stylesheet">
-<link href="{{ site.url }}/css/bootstrap.min.css" rel="stylesheet">
-<link href="{{ site.url }}/css/bootstrap-theme.min.css" rel="stylesheet">
-<link href="{{ site.url }}/css/ompl.css" rel="stylesheet">
-<link href="{{ site.url }}/css/syntax.css" rel="stylesheet">
-
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
-<script src="{{ site.url }}/search/searchdata.js"></script>
-<script src="{{ site.url }}/search/search.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="{{ site.url }}/ompl.css" rel="stylesheet">

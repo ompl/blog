@@ -1,121 +1,114 @@
-<nav class="navbar navbar-inverse navbar-fixed-top" id="top" role="navigation">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="{{ site.url }}/index.html">OMPL</a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="navbar-collapse">
-      <ul class="nav navbar-nav">
-        <li><a href="{{ site.url }}/download.html">Download</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Documentation <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="http://ompl.kavrakilab.org/OMPL_Primer.pdf">Primer</a></li>
-            <li><a href="{{ site.url }}/installation.html">Installation</a></li>
-            <li><a href="{{ site.url }}/tutorials.html">Tutorials</a></li>
-            <li><a href="{{ site.url }}/group__demos.html">Demos</a></li>
-            <li><a href="{{ site.url }}/gui.html">OMPL.app GUI</a></li>
-            <li><a href="{{ site.url }}/webapp.html">OMPL web app</a></li>
-            <li><a href="{{ site.url }}/python.html">Python Bindings</a></li>
-            <li><a href="{{ site.url }}/planners.html">Available Planners</a></li>
-            <li><a href="{{ site.url }}/benchmark.html">Benchmarking Planners</a></li>
-            <li><a href="{{ site.url }}/spaces.html">Available State Spaces</a></li>
-            <li><a href="{{ site.url }}/optimalPlanning.html">Optimal Planning</a></li>
-            <li><a href="{{ site.url }}/FAQ.html">FAQ</a></li>
-            <li class="divider"></li>
-            <li class="dropdown-header">External links</li>
-            <li><a href="http://moveit.ros.org">MoveIt!</a></li>
-            <li><a href="http://plannerarena.org">Planner Arena</a></li>
-            <li><a href="http://robotics.naist.jp/edu/text/?Robotics%2FOMPL">Japanese Introduction to OMPL</a></li>
-            <li><a href="http://robotics.naist.jp/edu/text/?Robotics%2FExercise%2FOMPLProgramming">Japanese OMPL Tutorial</a></li>
-            <li><a href="http://moveit.ros.org/wiki/Tutorials/ICRA2013">ICRA 2013 Tutorial</a></li>
-            <li><a href="http://kavrakilab.org/OMPLtutorial">IROS 2011 Tutorial</a></li>
-          </ul>
-        </li>
-        <li><a href="{{ site.url }}/gallery.html">Gallery</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Code <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="{{ site.url }}/api_overview.html">API Overview</a></li>
-            <li><a href="{{ site.url }}/annotated.html">Classes</a></li>
-            <li><a href="{{ site.url }}/files.html">Files</a></li>
-            <li><a href="{{ site.url }}/styleGuide.html">Style Guide</a></li>
-            <li><a href="{{ site.url }}/integration.html">Use OMPL within Other Systems</a></li>
-            <li class="divider"></li>
-            <li class="dropdown-header">Repositories</li>
-            <li><a href="https://bitbucket.org/ompl/ompl">ompl on Bitbucket (Mercurial)</a></li>
-            <li><a href="https://bitbucket.org/ompl/omplapp">omplapp on Bitbucket (Mercurial)</a></li>
-            <li><a href="https://github.com/ompl/ompl">ompl on GitHub</a></li>
-            <li><a href="https://github.com/ompl/omplapp">omplapp on GitHub</a></li>
-            <li class="divider"></li>
-            <li class="dropdown-header">Continuous Integration</li>
-            <li><a href="https://travis-ci.org/ompl/ompl">ompl on Travis CI (Linux)</a></li>
-            <li><a href="https://travis-ci.org/ompl/omplapp">omplapp on Travis CI (Linux)</a></li>
-            <li><a href="https://ci.appveyor.com/project/mamoll/ompl">ompl on AppVeyor CI (Windows)</a></li>
-            <li><a href="https://ci.appveyor.com/project/mamoll/omplapp">omplapp on AppVeyor CI (Windows)</a></li>
-          </ul>
-        </li>
-        <li><a href="https://bitbucket.org/ompl/ompl/issues?status=new&status=open">Issues</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Community <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="{{ site.url }}/mailingLists.html">Mailing Lists</a></li>
-            <li><a href="{{ site.url }}/developers.html">Developers</a></li>
-            <li><a href="{{ site.url }}/thirdparty.html">Contributions</a></li>
-            <li><a href="{{ site.url }}/contrib.html">Submit Contribution</a></li>
-            <li><a href="{{ site.url }}/education.html">Education</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="{{ site.url }}/license.html">License</a></li>
-            <li><a href="{{ site.url }}/citations.html">Citations</a></li>
-            <li><a href="{{ site.url }}/acknowledgements.html">Acknowledgments</a></li>
-            <li><a href="{{ site.url }}/contact.html">Contact Us</a></li>
-          </ul>
-        </li>
-        <li><a href="{{ site.url }}/blog.html">Blog</a></li>
-
-        <!-- Doxygen API search box -->
-        <div id="searchli">
-          <div id="MSearchBox" class="MSearchBoxInactive">
-            <span class="left">
-              <img id="MSearchSelect" src="{{ site.url }}/search/mag_sel.png"
-              onmouseover="return searchBox.OnSearchSelectShow()"
-              onmouseout="return searchBox.OnSearchSelectHide()"
-              alt=""/>
-              <input type="text" id="MSearchField" value="Search API" accesskey="S"
-              onfocus="searchBox.OnSearchFieldFocus(true)"
-              onblur="searchBox.OnSearchFieldFocus(false)"
-              onkeyup="searchBox.OnSearchFieldChange(event)"/>
-            </span><span class="right">
-              <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="{{ site.url }}/search/close.png" alt=""/></a>
-            </span>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+  <nav class="navbar navbar-expand-md fixed-top navbar-dark">
+    <a class="navbar-brand" href="./index.html">OMPL</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item"><a class="nav-link" href="{{ site.url }}/download.html">Download</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="docDropdown" role="button" data-toggle
+="dropdown" aria-haspopup="true" aria-expanded="false">Documentation</a>
+          <div class="dropdown-menu" aria-labelledby="docDropdown">
+            <a class="dropdown-item" href="https://ompl.kavrakilab.org/OMPL_Primer.pdf">Primer</a
+>
+            <a class="dropdown-item" href="{{ site.url }}/installation.html">Installation</a>
+            <a class="dropdown-item" href="{{ site.url }}/tutorials.html">Tutorials</a>
+            <a class="dropdown-item" href="{{ site.url }}/group__demos.html">Demos</a>
+            <a class="dropdown-item omplapp" href="{{ site.url }}/gui.html">OMPL.app GUI</a>
+            <a class="dropdown-item omplapp" href="{{ site.url }}/webapp.html">OMPL web app</a>
+            <a class="dropdown-item" href="{{ site.url }}/python.html">Python Bindings</a>
+            <a class="dropdown-item" href="{{ site.url }}/planners.html">Available Planners</a>
+            <a class="dropdown-item" href="{{ site.url }}/plannerTerminationConditions.html">Planner Termination Conditions</a>
+            <a class="dropdown-item" href="{{ site.url }}/benchmark.html">Benchmarking Planners</a>
+            <a class="dropdown-item" href="{{ site.url }}/spaces.html">Available State Spaces</a>
+            <a class="dropdown-item" href="{{ site.url }}/optimalPlanning.html">Optimal Planning</a>
+            <a class="dropdown-item" href="{{ site.url }}/constrainedPlanning.html">Constrained Planning</a>
+            <a class="dropdown-item" href="{{ site.url }}/FAQ.html">FAQ</a>
+            <div class="dropdown-divider"></div>
+            <div class="dropdown-header">External links</div>
+            <a class="dropdown-item" href="http://moveit.ros.org">MoveIt</a>
+            <a class="dropdown-item" href="http://plannerarena.org">Planner Arena</a>
+            <a class="dropdown-item" href="http://moveit.ros.org/wiki/Tutorials/ICRA2013">ICRA 2013 Tutorial</a>
+            <a class="dropdown-item" href="http://kavrakilab.org/iros2011/">IROS 2011 Tutorial</a>
           </div>
-        </div>
-
+        </li>
+        <li class="nav-item"><a class="nav-link" href="{{ site.url }}/gallery.html">Gallery</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="codeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Code</a>
+          <div class="dropdown-menu" aria-labelledby="codeDropdown">
+            <a class="dropdown-item" href="{{ site.url }}/api_overview.html">API Overview</a>
+            <a class="dropdown-item" href="{{ site.url }}/annotated.html">Classes</a>
+            <a class="dropdown-item" href="{{ site.url }}/files.html">Files</a>
+            <a class="dropdown-item" href="{{ site.url }}/styleGuide.html">Style Guide</a>
+            <a class="dropdown-item" href="{{ site.url }}/integration.html">Use OMPL within Other Systems</a>
+            <div class="dropdown-divider"></div>
+            <div class="dropdown-header">Repositories</div>
+            <a class="dropdown-item" href="https://github.com/ompl/ompl">ompl on GitHub</a>
+            <a class="dropdown-item" href="https://github.com/ompl/omplapp">omplapp on GitHub</a>
+            <div class="dropdown-divider"></div>
+            <div class="dropdown-header">Continuous Integration</div>
+            <a class="dropdown-item" href="https://travis-ci.org/ompl/ompl">ompl on Travis CI (Linux/macOS)</a>
+            <a class="dropdown-item" href="https://travis-ci.org/ompl/omplapp">omplapp on Travis CI (Linux/macOS)</a>
+            <a class="dropdown-item" href="https://ci.appveyor.com/project/mamoll/ompl">ompl on AppVeyor CI (Windows)</a>
+            <a class="dropdown-item" href="https://ci.appveyor.com/project/mamoll/omplapp">omplapp on AppVeyor CI (Windows)</a>
+          </div>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="https://github.com/ompl/ompl/issues">Issues</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="communityDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Community</a>
+          <div class="dropdown-menu" aria-labelledby="communityDropdown">
+            <a class="dropdown-item" href="{{ site.url }}/support.html">Get Support</a>
+            <a class="dropdown-item" href="{{ site.url }}/developers.html">Developers/Contributors</a>
+            <a class="dropdown-item" href="{{ site.url }}/contrib.html">Submit a Contribution</a>
+            <a class="dropdown-item" href="{{ site.url }}/education.html">Education</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+          <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+            <a class="dropdown-item" href="{{ site.url }}/license.html">License</a>
+            <a class="dropdown-item" href="{{ site.url }}/citations.html">Citations</a>
+            <a class="dropdown-item" href="{{ site.url }}/acknowledgements.html">Acknowledgments</a>
+          </div>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="https://ompl.kavrakilab.org/blog.html">Blog</a></li>
       </ul>
+              <div id="MSearchBox" class="MSearchBoxInactive">
+      <span class="left">
+        <img id="MSearchSelect" src="{{ site.url }}/search/mag_sel.png"
+             onmouseover="return searchBox.OnSearchSelectShow()"
+             onmouseout="return searchBox.OnSearchSelectHide()"
+             alt=""/>
+        <input type="text" id="MSearchField" value="Search" accesskey="S"
+             onfocus="searchBox.OnSearchFieldFocus(true)" 
+             onblur="searchBox.OnSearchFieldFocus(false)" 
+             onkeyup="searchBox.OnSearchFieldChange(event)"/>
+        </span><span class="right">
+          <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="{{ site.url }}/search/close.png" alt=""/></a>
+        </span>
+      </div>
     </div>
-  </div>
-</nav>
-
+  </nav>
+<div class="container" role="main">
+  <div><!-- Generated by Doxygen 1.8.18 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+/* @license-end */
+</script>
+</div><!-- top -->
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
-onmouseover="return searchBox.OnSearchSelectShow()"
-onmouseout="return searchBox.OnSearchSelectHide()"
-onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Friends</a></div>
+   onmouseover="return searchBox.OnSearchSelectShow()"
+   onmouseout="return searchBox.OnSearchSelectHide()"
+   onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
-  <iframe src="" frameborder="0"name="MSearchResults" id="MSearchResults"></iframe>
+<iframe src="javascript:void(0)" frameborder="0" 
+      name="MSearchResults" id="MSearchResults">
+</iframe>
 </div>
