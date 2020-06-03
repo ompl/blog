@@ -13,7 +13,7 @@ defaults:
             layout: post
 
 #url: http://ompl.github.io
-url: http://ompl.kavrakilab.org
+url: 
 highlighter: rouge
 exclude:
     - README
