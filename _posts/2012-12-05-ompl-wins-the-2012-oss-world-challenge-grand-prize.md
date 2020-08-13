@@ -9,4 +9,4 @@ Recently, the <a href="http://ompl.kavrakilab.org">Open Motion Planning Library 
 
 Besides the international category, there were also several categories at the national level, ranging from elementary school level (!), to college level. Web development and mobile apps seemed to be of particular interest. Several high-ranking government officials were in attendance, gave speeches, and handed out awards. Mark Moll attended the award ceremony and gave a talk about OMPL.
 
-![Reeds-Shepp path]({{ site.url }}//files/OSS-Award.jpg){: width="85%"}
+![Reeds-Shepp path]({{ site.url }}/files/OSS-Award.jpg){: width="85%"}

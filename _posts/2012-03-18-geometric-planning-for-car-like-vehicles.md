@@ -6,7 +6,7 @@ For several vehicle models it is possible to compute the optimal (i.e., shortest
 
 There is a demo program (demo_GeometricCarPlanning) that shows how to solve planning problems in this state space. Imagine a long corridor with the start and goal states of a Reeds-Shepp car at each end point, facing the wall. Normally, for a control based planner this could be a very challenging problem. With the Reeds-Shepp state space this is very easy and we get paths that looks like this:
 
-![Reeds-Shepp path]({{ site.url }}//files/rspath.png){: width="75%"}
+![Reeds-Shepp path]({{ site.url }}/files/rspath.png){: width="75%"}
 
 (Note the extra zig-zag at the end; the paths are only optimal between sampled states, not globally optimal.)
 

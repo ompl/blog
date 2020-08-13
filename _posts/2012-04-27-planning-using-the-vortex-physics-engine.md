@@ -28,5 +28,5 @@ The attached code has only been lightly tested, but if you find it useful or end
 
 ## Download:
 
-[[patch-vortex.diff]]({{site.url}}files/patch-vortex.diff.gz)
-[[vortex.tar]]({{site.url}}files/vortex.tar.gz)
+[[patch-vortex.diff]]({{site.url}}/files/patch-vortex.diff.gz)
+[[vortex.tar]]({{site.url}}/files/vortex.tar.gz)

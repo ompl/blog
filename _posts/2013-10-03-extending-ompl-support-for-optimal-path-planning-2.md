@@ -29,10 +29,10 @@ Check out the results of running RRT* on a motion planning problem using differe
 ![Minimizing path length]({{ site.url }}/files/path-length.gif){: width="80%"}
 
 #### Maximizing minimum path clearance from obstacle:
-![Maximizing minimum path clearance from obstacle]({{ site.url }}//files/clearance.gif){: width="80%"}
+![Maximizing minimum path clearance from obstacle]({{ site.url }}/files/clearance.gif){: width="80%"}
 
 #### Balancing clearance and path length:
-![Balancing clearance and path length]({{ site.url }}//files/balanced.gif){: width="80%"}
+![Balancing clearance and path length]({{ site.url }}/files/balanced.gif){: width="80%"}
 
 ### More Detailed Planner Benchmarks
 
